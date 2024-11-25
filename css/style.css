@@ -1,0 +1,125 @@
+
+/* Définir la police de caractères - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Centrer tous les titres */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* En-tête */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #4CAF50;
+}
+
+/* Barre de navigation */
+.navbar {
+    text-align: center;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar-link:hover {
+    color: #4CAF50; /* Changer la couleur au survol */
+}
+
+/* Sections */
+.section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #4CAF50;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center; /* Centrer uniquement les titres des sections */
+}
+
+.section-content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Carrière et réalisations */
+.career-section, .achievements-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.achievement {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-title {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.achievement-description {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-text {
+    margin: 0;
+}
